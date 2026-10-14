@@ -1,0 +1,12 @@
+# 统一换行，避免 Windows 上每次提交都出现「LF will be replaced by CRLF」的噪声
+* text=auto
+
+*.py     text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.html   text eol=lf
+*.gitignore text eol=lf
+
+# Windows 批处理必须是 CRLF
+*.cmd    text eol=crlf
+*.bat    text eol=crlf

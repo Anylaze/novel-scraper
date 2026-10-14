@@ -1,0 +1,27 @@
+{
+  "hosts": {
+    "demo.example.com": {
+      "name": "通用样板站",
+      "book_name": "样板小说",
+      "encoding": "utf-8",
+      "list_url_template": "{base_dir}/list_{page}.html",
+      "list_link": "#list a",
+      "chapter_content": "#content",
+      "chapter_title": "h1",
+      "chapter_junk": ["script", "style", ".ads", "#content div"],
+      "delay": 1.0
+    },
+    "demo-book": {
+      "name": "本地夹具（离线自测）",
+      "fixture_dir": "demo-book",
+      "book_name": "样板小说",
+      "encoding": "utf-8",
+      "list_url_template": "${BASE}/list_{page}.html",
+      "list_link": "#list a",
+      "chapter_content": "#content",
+      "chapter_title": "h1",
+      "chapter_junk": ["script", "style", ".ads", "#content div"],
+      "delay": 0
+    }
+  }
+}

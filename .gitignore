@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+_build/
+dist/
+*.spec
+
+# 运行产物（不随源码分发）
+output/
+log/
+*.log
+failed.txt
+
+# 会话 / 本地状态（含个人 cookie，绝不入库）
+cookies.json
+browser-state.json
+.last-url
+.last-volumes
+.volumes.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
